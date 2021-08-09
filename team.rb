@@ -10,7 +10,7 @@ class Team
   end
 
   def calc_win_rate()
-    win.to_f/(win.to_f+lose.to_f)
+    self.win.to_f/(self.win.to_f+self.lose.to_f)
   end
   
   def show_team_result()
