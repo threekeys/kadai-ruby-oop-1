@@ -14,7 +14,7 @@ class Team
   end
   
   def show_team_result()
-      puts "#{self.name}の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分、勝率は"+self.calc_win_rate().to_s+"です。"
+      puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗 #{self.draw}分、勝率は"+self.calc_win_rate().to_s+"です。"
   end 
 end
 
@@ -25,7 +25,7 @@ yokohama = Team.new("BayStars",  56, 58, 6)
 hiroshima = Team.new("Carp",  52, 56, 12)
 yakuruto = Team.new("Swallows",  41, 69, 10)
 
-puts "2020年のセリーグ各球団の勝敗情報"
+#puts "2020年のセリーグ各球団の勝敗情報"
 yomiuri.show_team_result
 hanshin.show_team_result
 chunichi.show_team_result
